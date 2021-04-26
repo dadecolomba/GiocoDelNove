@@ -7,10 +7,23 @@ table {
 button {
     width: 100px;
     height: 100px;
+    background-color: white;
 }
-button#inizio_gioco{
-    margin-top: 20px;
-    width: 300px;
-    height: 50px;
-    background-color: red;
+
+button#inizio_gioco {
+  background-color: lightblue;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  width: 300px;
+  height: 50px;
+}
+
+button#inizio_gioco:hover {
+  background-color: blue;
+  color: white;
 }
